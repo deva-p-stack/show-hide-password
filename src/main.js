@@ -49,8 +49,8 @@ errorpass.classList.remove("hidden");
 errorpass.textContent="please enter the password ";
  show.classList.remove("top-1/2");
  hide.classList.remove ("top-1/2");
- show.classList.add("top-[52%]");
- hide.classList.add("top-[52%]");
+ show.classList.add("top-[40%]");
+ hide.classList.add("top-[40%]");
 validate = false;
 }
 else if(!passregx.test(pass.value)){
